@@ -8,8 +8,49 @@
 import SwiftUI
 
 struct MainTabView: View {
+    @State private var selectedTab: Int = 0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView(selection: $selectedTab){
+            Text("Feed")
+                .tabItem {
+                    VStack{
+                        Image(systemName: "house")
+                            .environment(\.symbolVariants, selectedTab == 0 ? .fill : .none)
+                        Text("Home")
+                    }
+                }
+            
+            Text("Friends")
+                .tabItem {
+                    VStack{
+                        Image(systemName: "person.2")
+                        Text("Friends")
+                    }
+                }
+            
+            Text("Upload")
+                .tabItem {
+                    VStack{
+                        Image(systemName: "plus")
+                        Text("Upload")
+                    }
+                }
+            Text("Notifications")
+                .tabItem {
+                    VStack{
+                        Image(systemName: "heart")
+                        Text("Notifications")
+                    }
+                }
+            Text("Profile")
+                .tabItem {
+                    VStack{
+                        Image(systemName: "person")
+                        Text("Profile")
+                    }
+                }
+             
+        }
     }
 }
 

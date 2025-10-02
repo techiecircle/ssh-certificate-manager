@@ -1,7 +1,30 @@
-/* 
-  Localizable.strings
-  Skydivetrack
+/* Login Screen */
+"Login.UsernameField.Title" = "Username";
+"Login.PasswordField.Title" = "Password";
+"Login.LoginButton.Title" = "Login";
+"Login.SignupLink.Title" = "Sign Up";
+"Login.ForgotPasswordLink.Title" = "Forgot Password?";
+"Login Failed" = "Login Failed";
+"Logging in..." = "Logging in...";
 
-  Created by Jabba on 10/1/25.
-  
-*/
+/* Signup Screen */
+"Signup.UsernameField.Title" = "Username";
+"Signup.EmailField.Title" = "Email";
+"Signup.PasswordField.Title" = "Password";
+"Signup.ConfirmPasswordField.Title" = "Confirm Password";
+"Signup.SignupButton.Title" = "Sign Up";
+"Signup Failed" = "Signup Failed";
+"Passwords do not match" = "Passwords do not match";
+"Signing up..." = "Signing up...";
+
+/* Retrieve Password Screen */
+"RetrievePassword.EmailField.Title" = "Email";
+"RetrievePassword.SendButton.Title" = "Send Password Reset";
+"Sending..." = "Sending...";
+"Error" = "Error";
+"Success" = "Success";
+"Password reset email sent" = "Password reset email sent";
+"Failed to send password reset" = "Failed to send password reset";
+
+/* Home Screen */
+"Welcome to the Home Screen!" = "Welcome to the Home Screen!";
